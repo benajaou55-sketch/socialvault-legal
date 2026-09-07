@@ -25,7 +25,7 @@
 
   <h2>Preamble</h2>
   <p>This Privacy Policy describes how the SocialVault mobile application ("the Application"), developed by Benashe Softworks ("the Studio"), collects, uses and protects user information. By using SocialVault, you agree to the practices described in this document.</p>
-  <p>SocialVault is a free, ad-supported Android application that allows downloading publicly available media from popular social media platforms, saving temporary status or story content shared via messaging applications, converting video files into audio files, and securely storing personal files in a local, PIN or password-protected Vault.</p>
+  <p>SocialVault is a free, ad-supported Android application that allows downloading publicly available media from popular social media platforms, saving temporary status or story content shared via messaging applications, converting video files into audio files, generating AI-powered summaries of YouTube videos, and securely storing personal files in a local, PIN or password-protected Vault.</p>
 
   <h2>Article 1 — Data Controller Identity</h2>
   <p>Studio: Benashe Softworks<br>Contact email: benashesoftworks@gmail.com<br>Capacity: Independent studio, sole data controller for the SocialVault Application.</p>
@@ -75,7 +75,7 @@
     <li>no data sold, rented or transferred to third parties;</li>
     <li>downloaded or saved media remains on the user's device at all times;</li>
     <li>Vault files and converter files never leave the user's device;</li>
-    <li>no outgoing network access to personal data, except downloading public media from its original URL.</li>
+    <li>no outgoing network access to personal data, except downloading public media from its original URL, and except the YouTube Summary feature described in Article 10, which transmits only public caption text and only with the user's explicit consent.</li>
   </ul>
 
   <h2>Article 7 — Advertising</h2>
@@ -92,10 +92,26 @@
   <h2>Article 9 — User Rights</h2>
   <p>The user has rights of access, rectification, erasure and objection regarding data potentially collected by integrated third-party services.</p>
 
-  <h2>Article 10 — Policy Changes</h2>
+  <h2>Article 10 — AI-Powered Features: YouTube Video Summary</h2>
+  <h3>10.1 What this feature does</h3>
+  <p>SocialVault offers an optional feature that generates a written summary and a text transcript of a YouTube video the user chooses, using Google's Gemini API. To use this feature, the user submits a YouTube video URL. The Application retrieves only the video's publicly available text captions/subtitles and sends that text to Google's Gemini API for processing.</p>
+  <p class="bold">No video file, audio file, or any other media byte is ever downloaded, extracted, or transmitted for this feature. Only text (captions/subtitles and the resulting summary) is processed.</p>
+  <h3>10.2 No personal data sent</h3>
+  <p>The only data transmitted to Google for this feature is the YouTube video identifier and its public caption text. SocialVault does not send the user's name, device identifiers, account information, or any other personal data as part of this feature.</p>
+  <h3>10.3 Google as a sub-processor</h3>
+  <p>Google, through its Gemini API, acts as a sub-processor for the sole purpose of generating the requested summary. Google's handling of this data is governed by Google's own terms and privacy practices, independently of Benashe Softworks.</p>
+  <p class="bold">SocialVault currently uses the free tier of the Gemini API. Under Google's terms for this tier, submitted text and generated responses may be used by Google to improve its products and to train and evaluate its models. Users who prefer not to have video caption text processed under these conditions should not use the YouTube Summary feature.</p>
+  <h3>10.4 Data retention</h3>
+  <p>To avoid repeated processing of the same video, SocialVault's backend server caches the transcript and summary for up to 30 days. Independently, Google retains its own request logs for this API for a default maximum of 55 days, after which point they are marked for deletion, in accordance with Google's own data retention practices, which are outside Benashe Softworks' control.</p>
+  <h3>10.5 Consent</h3>
+  <p>This feature is not enabled by default and is not required to use the rest of the Application. The first time a user accesses the YouTube Summary feature, the Application presents a clear in-app disclosure of the data practices described in this Article and requires the user's explicit, affirmative consent before any caption text is sent to Google. Declining this consent has no effect on any other feature of the Application.</p>
+  <h3>10.6 AI-generated content accuracy</h3>
+  <p>Summaries are generated automatically by an AI model and may contain inaccuracies, omissions, or errors. See the Terms of Use for details on the limitations of AI-generated content.</p>
+
+  <h2>Article 11 — Policy Changes</h2>
   <p>Benashe Softworks may modify this Policy at any time. In the event of a material change, the user will be informed via the Application or the Google Play Store.</p>
 
-  <h2>Article 11 — Contact</h2>
+  <h2>Article 12 — Contact</h2>
   <p>Studio: Benashe Softworks<br>Email: benashesoftworks@gmail.com<br>Application: SocialVault — Google Play Store</p>
 
   <footer>© 2026 Benashe Softworks — benashesoftworks@gmail.com</footer>

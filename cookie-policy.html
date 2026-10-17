@@ -41,7 +41,8 @@
     <li>thumbnail previews of recently viewed media;</li>
     <li>temporary session data for URL resolution;</li>
     <li>temporary metadata related to downloads;</li>
-    <li>temporary files generated during a video-to-audio conversion, automatically deleted after the operation.</li>
+    <li>temporary files generated during a video-to-audio conversion, automatically deleted after the operation;</li>
+    <li>temporary files generated during a photo-to-PDF creation or a PDF compression (for example resized copies of photos and intermediate PDF data), automatically deleted after the operation.</li>
   </ul>
   <p>The cache can be cleared via Settings > Apps > Savevia > Clear cache.</p>
   <h3>2.3 Local Database (Room / SQLite)</h3>
@@ -55,6 +56,8 @@
   </ul>
   <h3>2.5 YouTube Summary Feature — Local Data</h3>
   <p>The YouTube Summary feature does not introduce any new cookie or persistent tracking mechanism. Summaries and transcripts retrieved by the Application are held temporarily in memory while the corresponding screen is open. If the user chooses to export a summary as a PDF or DOCX file, that file is saved to the device's local storage, exactly like any other downloaded media described in this Policy (see Article 6).</p>
+  <h3>2.6 Photo to PDF and PDF Compression — Local Data</h3>
+  <p>The Photo to PDF and PDF Compression features do not introduce any cookie or tracking mechanism. The photos and PDF files selected by the user are processed on the device, using temporary files in the application cache that are deleted after each operation. The resulting PDF files are saved to the device's local storage, exactly like any other file created by the Application (see Article 6). No photo, PDF file or document content is transmitted to any server.</p>
 
   <h2>Article 3 — Third-Party Advertising Cookies</h2>
   <p>Savevia is entirely free and integrates third-party advertising networks (including AppLovin MAX and its mediation partners), which may use the Android Advertising ID (AAID). There is no paid or ad-free version of the Application.</p>
@@ -83,6 +86,8 @@
     <li>Downloaded media: retained indefinitely until deleted by the user;</li>
     <li>Vault lock data: retained until the Vault is reset or the Application is uninstalled;</li>
     <li>Converter cache files: deleted after each conversion or cache clear;</li>
+    <li>Photo to PDF and PDF Compression temporary files: deleted after each operation or cache clear;</li>
+    <li>PDF files created or compressed by the user: retained indefinitely until deleted by the user;</li>
     <li>Exported YouTube summary files (PDF/DOCX): retained indefinitely until deleted by the user.</li>
   </ul>
 

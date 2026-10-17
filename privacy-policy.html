@@ -25,7 +25,7 @@
 
   <h2>Preamble</h2>
   <p>This Privacy Policy describes how the Savevia mobile application ("the Application"), developed by Benashe Softworks ("the Studio"), collects, uses and protects user information. By using Savevia, you agree to the practices described in this document.</p>
-  <p>Savevia is a free, ad-supported Android application that allows downloading publicly available media from popular social media platforms, saving temporary status or story content shared via messaging applications, converting video files into audio files, generating AI-powered summaries of YouTube videos, and securely storing personal files in a local, PIN or password-protected Vault.</p>
+  <p>Savevia is a free, ad-supported Android application that allows downloading publicly available media from popular social media platforms, saving temporary status or story content shared via messaging applications, converting video files into audio files, converting photos into PDF documents, compressing PDF files, generating AI-powered summaries of YouTube videos, and securely storing personal files in a local, PIN or password-protected Vault.</p>
 
   <h2>Article 1 — Data Controller Identity</h2>
   <p>Studio: Benashe Softworks<br>Contact email: benashesoftworks@gmail.com<br>Capacity: Independent studio, sole data controller for the Savevia Application.</p>
@@ -47,6 +47,10 @@
   <p>Videos and images downloaded through the Application are saved locally and never transmitted to servers.</p>
   <h3>3.3 Video-to-Audio conversion</h3>
   <p>The converter extracts the audio track (MP3) from a video file (MP4, MKV, AVI, MOV, WebM) already present on the device. Conversion is performed entirely offline, with no upload to any external server.</p>
+  <h3>3.4 Photo to PDF</h3>
+  <p>The Photo to PDF feature assembles one or more photos chosen by the user into a single PDF document. The user selects the photos through the Android system photo picker; Savevia only accesses the specific photos the user selects and has no access to the rest of the user's gallery. The PDF is generated entirely on the device and saved to the device's local storage. No photo and no resulting PDF is uploaded to any server.</p>
+  <h3>3.5 PDF Compression</h3>
+  <p>The PDF Compression feature reduces the file size of a PDF document chosen by the user. The user selects the file through the Android system document picker; Savevia only accesses the specific file the user selects. Compression is performed entirely offline on the device, and the compressed copy is saved to the device's local storage. No PDF file or its content is uploaded to any server.</p>
 
   <h2>Article 4 — Vault: Local Secure Storage</h2>
   <p>The Vault feature allows moving photos, videos, audio and documents into a protected, hidden space within the Application.</p>
@@ -74,7 +78,7 @@
     <li>no personal data stored on remote servers;</li>
     <li>no data sold, rented or transferred to third parties;</li>
     <li>downloaded or saved media remains on the user's device at all times;</li>
-    <li>Vault files and converter files never leave the user's device;</li>
+    <li>Vault files, converter files, photos used for PDF creation and PDF files processed by the compressor never leave the user's device;</li>
     <li>no outgoing network access to personal data, except downloading public media from its original URL, and except the YouTube Summary feature described in Article 10, which transmits only public caption text and only with the user's explicit consent.</li>
   </ul>
 
@@ -83,11 +87,11 @@
 
   <h2>Article 8 — Required Android Permissions</h2>
   <ul>
-    <li>READ_MEDIA_IMAGES / READ_MEDIA_VIDEO: status/story content and Vault media;</li>
-    <li>WRITE_EXTERNAL_STORAGE: saving media to the device gallery;</li>
-    <li>INTERNET: downloading media from social platforms;</li>
-    <li>POST_NOTIFICATIONS: download and conversion progress notifications.</li>
+    <li>INTERNET: downloading media from social platforms and, for the YouTube Summary feature, sending public caption text;</li>
+    <li>POST_NOTIFICATIONS: download, conversion and compression progress notifications;</li>
+    <li>WRITE_EXTERNAL_STORAGE (older Android versions only): saving media to the device storage.</li>
   </ul>
+  <p>Savevia does not request broad access to the user's photos and videos. Photos, videos and PDF files are chosen by the user through the Android system pickers (photo picker and document picker), which grant access only to the specific files selected. Files created by the Application (downloads, converted audio, generated or compressed PDFs) are saved through Android's standard media storage API.</p>
 
   <h2>Article 9 — User Rights</h2>
   <p>The user has rights of access, rectification, erasure and objection regarding data potentially collected by integrated third-party services.</p>

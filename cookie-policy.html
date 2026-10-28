@@ -22,6 +22,7 @@
 <div class="wrap">
   <h1>Cookie & Local Storage Policy</h1>
   <hr class="top">
+  <p class="bold">Last updated: October 28, 2026</p>
 
   <h2>Preamble</h2>
   <p>This Policy describes how Savevia, developed by Benashe Softworks, uses local storage technologies, cookies and cache on the user's device.</p>
@@ -42,6 +43,7 @@
     <li>temporary session data for URL resolution;</li>
     <li>temporary metadata related to downloads;</li>
     <li>temporary files generated during a video-to-audio conversion, automatically deleted after the operation;</li>
+    <li>temporary files generated during a video compression, automatically deleted after the operation;</li>
     <li>temporary files generated during a photo-to-PDF creation or a PDF compression (for example resized copies of photos and intermediate PDF data), automatically deleted after the operation.</li>
   </ul>
   <p>The cache can be cleared via Settings > Apps > Savevia > Clear cache.</p>
@@ -59,9 +61,15 @@
   <h3>2.6 Photo to PDF and PDF Compression — Local Data</h3>
   <p>The Photo to PDF and PDF Compression features do not introduce any cookie or tracking mechanism. The photos and PDF files selected by the user are processed on the device, using temporary files in the application cache that are deleted after each operation. The resulting PDF files are saved to the device's local storage, exactly like any other file created by the Application (see Article 6). No photo, PDF file or document content is transmitted to any server.</p>
 
+  <h3>2.7 Video Compression — Local Data</h3>
+  <p>The Video Compression feature does not introduce any cookie or tracking mechanism. The video selected by the user is processed on the device, using temporary files in the application cache that are deleted after each operation. The resulting video is saved to the device's local storage, exactly like any other file created by the Application (see Article 6). No video is transmitted to any server.</p>
+  <h3>2.8 Advertising-Frequency Counters</h3>
+  <p>The Application stores in SharedPreferences a few counters used only to limit how often ads are shown: number of actions and ads of the day, time of the last full-screen ad, session start time and a flag indicating that the user left the Application right after an ad. These counters stay on the device, are not linked to any identity and are never transmitted.</p>
+
   <h2>Article 3 — Third-Party Advertising Cookies</h2>
-  <p>Savevia is entirely free and integrates third-party advertising networks (including AppLovin MAX and its mediation partners), which may use the Android Advertising ID (AAID). There is no paid or ad-free version of the Application.</p>
-  <p>Ad personalization can be limited via: Google Settings > Data & Privacy > Ads personalization.</p>
+  <p>Savevia is entirely free and funded by advertisements served by Google AdMob. The Google Mobile Ads SDK may use the Android Advertising ID (AAID) and similar identifiers, and may store small amounts of data on the device (for example in SharedPreferences or the application cache) to serve, measure and secure ads. There is no paid or ad-free version of the Application.</p>
+  <p>Where required by law (European Economic Area, United Kingdom, Switzerland), your consent choice is recorded on the device by Google's consent platform (User Messaging Platform) and applied to ad requests.</p>
+  <p>Ad personalization can be limited via your device settings: Settings &gt; Google &gt; Ads, or Settings &gt; Privacy &gt; Ads, where the Advertising ID can also be reset or deleted. See also Article 7 of the Privacy Policy.</p>
 
   <h2>Article 4 — Security-Related Cookies</h2>
   <p>Savevia does not store any authentication cookies, session tokens, passwords or login credentials for third-party platforms.</p>
@@ -88,11 +96,14 @@
     <li>Converter cache files: deleted after each conversion or cache clear;</li>
     <li>Photo to PDF and PDF Compression temporary files: deleted after each operation or cache clear;</li>
     <li>PDF files created or compressed by the user: retained indefinitely until deleted by the user;</li>
-    <li>Exported YouTube summary files (PDF/DOCX): retained indefinitely until deleted by the user.</li>
+    <li>Exported YouTube summary files (PDF/DOCX): retained indefinitely until deleted by the user;</li>
+    <li>Video Compression temporary files: deleted after each operation or cache clear;</li>
+    <li>Videos compressed by the user: retained indefinitely until deleted by the user;</li>
+    <li>Advertising-frequency counters: reset every day or when the Application data is cleared; the consent choice is retained until you change it or clear the Application data.</li>
   </ul>
 
   <h2>Article 7 — No Non-Advertising Third-Party Cookies</h2>
-  <p>Apart from advertising networks, Savevia does not integrate any third-party cookies or trackers for profiling purposes. As the Application offers no in-app purchases or subscriptions, it does not integrate any billing-related cookies or trackers.</p>
+  <p>Apart from Google AdMob, Savevia does not integrate any third-party cookies or trackers for profiling purposes. As the Application offers no in-app purchases or subscriptions, it does not integrate any billing-related cookies or trackers.</p>
 
   <h2>Article 8 — Contact</h2>
   <p>Studio: Benashe Softworks<br>Email: benashesoftworks@gmail.com<br>Application: Savevia — Google Play Store</p>
